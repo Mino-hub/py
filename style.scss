@@ -30,6 +30,7 @@ $hcolor:#051328;
 $textcolor:#152338;
 $linecolor:#a1a1b5;
 $lineshadowcolor:#f1f1ff;
+$lineshadowcolor2:#ffffff;
 $bordercolor:#354358;
 $shadowcolor:#92acc1;
 $insertcolor1:#d7a858;
@@ -38,10 +39,10 @@ $basefontsize_mobile:14px;
 $basefontsize_pc:16px;
 $fontsize_s:0.7em;
 $fontsize_m:1em;
-$fontsize_ms:1.2em;
-$fontsize_ml:1.4em;
-$fontsize_l:1.6em;
-$fontsize_ls:1.8em;
+$fontsize_ms:1.1em;
+$fontsize_ml:1.2em;
+$fontsize_l:1.3em;
+$fontsize_ls:1.4em;
 $fontsize_lm:2em;
 $fontsize_lx:2.6em;
 
@@ -60,9 +61,14 @@ $lineheight_lx:$fontsize_lx * $lineheight_k;
     color:$hcolor;
     float:left;
 }
+
 @mixin line {
     border-bottom:1px solid $linecolor;
     box-shadow :0px 2px 0px $lineshadowcolor;
+}
+
+@mixin textshadow {
+    text-shadow:0px 2px 0px $lineshadowcolor2;
 }
 
 
@@ -139,12 +145,14 @@ header img{
 h1{
     font-size:$fontsize_lx;
     line-height:$lineheight_lx;
+    @include textshadow;
     @include article_h_base;
 }
 #article h2{
     font-size:$fontsize_lm;
     line-height:$lineheight_lm;
     padding-bottom:0.5em;
+    @include textshadow;
     @include line;
     @include article_h_base;
 }

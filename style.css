@@ -110,6 +110,7 @@ header img {
 h1 {
   font-size: 2.6em;
   line-height: 1.3em;
+  text-shadow: 0px 2px 0px #ffffff;
   width: 100%;
   color: #051328;
   float: left; }
@@ -118,6 +119,7 @@ h1 {
   font-size: 2em;
   line-height: 1em;
   padding-bottom: 0.5em;
+  text-shadow: 0px 2px 0px #ffffff;
   border-bottom: 1px solid #a1a1b5;
   box-shadow: 0px 2px 0px #f1f1ff;
   width: 100%;
@@ -125,29 +127,29 @@ h1 {
   float: left; }
 
 #article h3 {
-  font-size: 1.8em;
-  line-height: 0.9em;
-  width: 100%;
-  color: #051328;
-  float: left; }
-
-#article h4 {
-  font-size: 1.6em;
-  line-height: 0.8em;
-  width: 100%;
-  color: #051328;
-  float: left; }
-
-#article h5 {
   font-size: 1.4em;
   line-height: 0.7em;
   width: 100%;
   color: #051328;
   float: left; }
 
-#article h6 {
+#article h4 {
+  font-size: 1.3em;
+  line-height: 0.65em;
+  width: 100%;
+  color: #051328;
+  float: left; }
+
+#article h5 {
   font-size: 1.2em;
   line-height: 0.6em;
+  width: 100%;
+  color: #051328;
+  float: left; }
+
+#article h6 {
+  font-size: 1.1em;
+  line-height: 0.55em;
   width: 100%;
   color: #051328;
   float: left; }
