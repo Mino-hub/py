@@ -1,0 +1,257 @@
+//brackpoint
+$breakpoint_mobile:320px;
+$breakpoint_tablet:768px;
+$breakpoint_pc:1366px;
+
+@mixin mobile {
+    @media (max-width:$breakpoint_mobile){
+        @content;
+    }
+}
+@mixin bigmobile {
+    @media (min-width:$breakpoint_mobile)and(max-width:$breakpoint_tablet){
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width:$breakpoint_tablet)and(max-width:$breakpoint_pc){
+        @content;
+    }
+}
+@mixin pc {
+    @media (min-width:$breakpoint_pc){
+        @content;
+    }
+}
+
+//color
+$basecolor:#e1e1f5;
+$hcolor:#051328;
+$textcolor:#152338;
+$linecolor:#a1a1b5;
+$lineshadowcolor:#f1f1ff;
+$bordercolor:#354358;
+$shadowcolor:#92acc1;
+$insertcolor1:#d7a858;
+
+$basefontsize_mobile:14px;
+$basefontsize_pc:16px;
+$fontsize_s:0.7em;
+$fontsize_m:1em;
+$fontsize_ms:1.2em;
+$fontsize_ml:1.4em;
+$fontsize_l:1.6em;
+$fontsize_ls:1.8em;
+$fontsize_lm:2em;
+$fontsize_lx:2.6em;
+
+$lineheight_k:0.5;
+$lineheight_s:$fontsize_s * $lineheight_k;
+$lineheight_m:$fontsize_m * 1.5;
+$lineheight_ms:$fontsize_ms * $lineheight_k;
+$lineheight_ml:$fontsize_ml * $lineheight_k;
+$lineheight_l:$fontsize_l * $lineheight_k;
+$lineheight_ls:$fontsize_ls * $lineheight_k;
+$lineheight_lm:$fontsize_lm * $lineheight_k;
+$lineheight_lx:$fontsize_lx * $lineheight_k;
+
+@mixin article_h_base {
+    width:100%;
+    color:$hcolor;
+    float:left;
+}
+@mixin line {
+    border-bottom:1px solid $linecolor;
+    box-shadow :0px 2px 0px $lineshadowcolor;
+}
+
+
+body
+{
+    @include mobile    { font-size:14px; };
+    @include bigmobile { font-size:15px; };
+    @include tablet    { font-size:16px; };
+    @include pc        { font-size:17px; };
+    background-color:$basecolor;
+    font-family: 
+    游ゴシック体,
+    'Yu Gothic',
+    YuGothic,
+    'ヒラギノ角ゴシック Pro',
+    'Hiragino Kaku Gothic Pro',
+    メイリオ,
+    Meiryo,
+    Osaka,
+    'ＭＳ Ｐゴシック',
+    'MS PGothic',
+    sans-serif;
+    float:left;
+}
+*{
+    box-sizing:border-box;
+}
+header{
+    @include line;
+    width:100%;
+    text-align:center;
+    float:left;
+}
+header img{
+    @include mobile    { width:50%;  height:auto; };
+    @include bigmobile { width:35%;  height:auto; };
+    @include tablet    { width:20%;  height:auto; };
+    @include pc        { max-width:20%;  height:auto; };
+    padding:5px;
+}
+#continer{
+    @include mobile    { margin:0; };
+    @include bigmobile { margin:0; };
+    @include tablet    { margin:0 10px; };
+    @include pc        { margin:0 20px; };
+    width:100%;
+    float:left;
+}
+.main{
+    @include line;
+    @include mobile    { width:100% - 2%;  margin:0 1%; };
+    @include bigmobile { width:100% - 4%;  margin:0 2%; };
+    @include tablet    { width:70%  - 8%;  margin:0 4%; };
+    @include pc        { width:70%  - 16%; margin:0 8%; };
+    float:left;
+}
+#sidebar{
+    @include mobile    { width:100%; };
+    @include bigmobile { width:100%; };
+    @include tablet    { width:30%; };
+    @include pc        { width:30%; };
+    float:left;
+}
+#article{
+    line-height:$lineheight_m;
+    padding:15px;
+    float:left;
+}
+#article img{
+    max-width:100%;
+    height:auto;
+    float:left;
+}
+h1{
+    font-size:$fontsize_lx;
+    line-height:$lineheight_lx;
+    @include article_h_base;
+}
+#article h2{
+    font-size:$fontsize_lm;
+    line-height:$lineheight_lm;
+    padding-bottom:0.5em;
+    @include line;
+    @include article_h_base;
+}
+#article h3{
+    font-size:$fontsize_ls;
+    line-height:$lineheight_ls;
+    @include article_h_base;
+}
+#article h4{
+    font-size:$fontsize_l;
+    line-height:$lineheight_l;
+    @include article_h_base;
+}
+#article h5{
+    font-size:$fontsize_ml;
+    line-height:$lineheight_ml;
+    @include article_h_base;
+}
+#article h6{
+    font-size:$fontsize_ms;
+    line-height:$lineheight_ms;
+    @include article_h_base;
+}
+#article p{
+    width:100%;
+    margin-bottom:0.5em;
+    color:$textcolor;
+    font-size:$fontsize_m;
+    line-height:$lineheight_m;
+    float:left;
+}
+#article div,
+#article ol,
+#article ul,{
+    width:100%;
+    color:$textcolor;
+    font-size:$fontsize_m;
+    line-height:$lineheight_m;
+    float:left;
+}
+.postlist{
+    margin:0 0 5px 0;
+    border:1px solid $bordercolor;
+    border-radius:3px;
+    box-shadow:1px 1px 5px $shadowcolor;
+    background-color:#fefeff;
+    float:left;
+}
+.postlist-cat-div{
+    width:100%;
+    background-color:$insertcolor1;
+    float:left;
+}
+.postlist-cat-div div{
+    margin:0;
+    padding:5px;
+    font-size:0.7em;
+    color:#fefeff;
+    float:left;
+}
+.postlist-meta-div{
+    margin:0;
+    padding:10px;
+    font-size:0.7em;
+    color:#657381;
+    float:right;
+}
+.postlist-meta-div div{
+    float:left;
+}
+.postlist-meta-div div span{
+    margin:0 5px 0 0;
+}
+.postlist-meta-div div span:last-child{
+    margin:0 0 0 0;
+}
+.postlist-meta-div div{
+    float:left;
+}
+.postlist-cat-div div a{
+    font-size:0.7em;
+    color:#fefeff;
+    text-decoration:none;
+}
+.postlist-wrap{
+    width:100%;
+    padding:20px 10px 10px 10px;
+    float:left;
+}
+.postlist-title-a{
+    width:80%;
+    padding:0 5px 5px 0;
+    display:block;
+    font-size:0.9em;
+    line-height:150%;
+    text-decoration:none;
+    color:#000a2a;
+    float:left;
+}
+.postlist-img-a{
+    width:20%;
+    display:block;
+    float:left;
+}
+.postlist-img-a img{
+    width:100%;
+    height:auto;
+    float:left;
+}
+

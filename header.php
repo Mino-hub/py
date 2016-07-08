@@ -10,4 +10,5 @@
     </head>
     <body>
         <header>
+            <img src="./wp-content/themes/pyaka/img/top.svg">
         </header>

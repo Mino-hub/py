@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div id="continer">
-    <div id="main">
+    <div class="main">
     <?php if (have_posts()) : ;?>
         <?php while (have_posts()) : the_post();?>
             <div class="postlist">
