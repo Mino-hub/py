@@ -13,6 +13,7 @@
         <div id="article">
             <?php the_content(); ?>
         </div>
+            <?php get_template_part("social"); ?>
     </div>
     <div class="aspace">
     </div>
