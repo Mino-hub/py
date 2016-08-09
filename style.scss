@@ -330,8 +330,10 @@ header img{
     @include article_tag;
 }
 .meta img{
+    margin:0 auto;
     max-width: 100%;
     height: auto;
+    float:left;
 }
 .aspace{
     width:100%;
