@@ -5,7 +5,7 @@
         <div class="meta">
             <h1><?php the_title();?></h1>
             <?php the_post_thumbnail(); ?>
-            <div><?php echo get_the_date("Y/m/d H:i:s"); ?></div>
+            <div class="date"><?php echo get_the_date("Y/m/d H:i:s"); ?></div>
         </div>
     </div>
     <div class="main-noline">
