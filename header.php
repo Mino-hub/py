@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>ぴゃかじてん</title>
-        <link rel="stylesheet" type="text/css" href="./wp-content/themes/pyaka/reset.css">
-        <link rel="stylesheet" type="text/css" href="./wp-content/themes/pyaka/style.css">
-        <link rel="stylesheet" type="text/css" href="./wp-content/themes/pyaka/genericons.css">
+        <link rel="stylesheet" type="text/css" href="./wp-content/themes/pyakathema/reset.css">
+        <link rel="stylesheet" type="text/css" href="./wp-content/themes/pyakathema/style.css">
+        <link rel="stylesheet" type="text/css" href="./wp-content/themes/pyakathema/genericons.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     </head>
@@ -14,7 +14,7 @@
         <header>
             <div id="topwrap">
                 <a href="<?php echo site_url(); ?>">
-                    <img src="./wp-content/themes/pyaka/img/top.svg">
+                    <img src="./wp-content/themes/pyakathema/img/top.svg">
                 </a>
             </div>
             <nav class="navbar center-block hidden-xs">
