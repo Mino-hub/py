@@ -12,5 +12,6 @@
         </div>
     </div>
     <?php endif; ?>
+</div>
 <?php get_template_part("sidebar"); ?>
 <?php get_footer(); ?>
