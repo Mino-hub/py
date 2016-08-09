@@ -9,7 +9,6 @@
         <link rel="stylesheet" type="text/css" href="http://pyaka.net/wp-content/themes/pyakathema/genericons.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    </head>
 <?php if ( !is_user_logged_in() ){
 echo <<<aaa
 <script>
@@ -25,6 +24,7 @@ echo <<<aaa
 aaa;
 }
 ?>
+    </head>
     <body>
         <header>
             <div id="topwrap">
