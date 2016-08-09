@@ -14,7 +14,7 @@
         <header>
             <div id="topwrap">
                 <a href="<?php echo site_url(); ?>">
-                    <img src="./wp-content/themes/pyakathema/img/top.svg">
+                    <img src="http://pyaka.net/wp-content/themes/pyakathema/img/top.svg">
                 </a>
             </div>
             <nav class="navbar center-block hidden-xs">
