@@ -385,6 +385,10 @@ header img {
   padding: 1em;
   float: left; }
 
+.meta img {
+  max-width: 100%;
+  height: auto; }
+
 .aspace {
   width: 100%;
   height: 250px;
