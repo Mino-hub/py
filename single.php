@@ -3,9 +3,9 @@
 <div id="continer">
     <div class="main">
         <div class="meta">
+            <div class="date"><?php echo get_the_date("Y/m/d H:i:s"); ?></div>
             <h1><?php the_title();?></h1>
             <?php the_post_thumbnail(); ?>
-            <div class="date"><?php echo get_the_date("Y/m/d H:i:s"); ?></div>
         </div>
     </div>
     <div class="main-noline">
