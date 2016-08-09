@@ -3,7 +3,7 @@
     <?php
         global $wp_query;
         $big = 999999999; 
-        paginate_links( array(
+        echo paginate_links( array(
             'base' => str_replace( $big, '%_%', esc_url( get_pagenum_link( $big ) ) ),
             'format' => '?page=%#%',
             'current' => max( 1, get_query_var('paged') ),
