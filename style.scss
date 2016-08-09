@@ -90,7 +90,7 @@ body
     @include tablet    { font-size:16px; };
     @include pc        { font-size:17px; };
     width:100%;
-    background-color:$basecolor;
+    background-color:#ffffff;
     font-family: 
     游ゴシック体,
     'Yu Gothic',
@@ -252,6 +252,7 @@ header{
     @include tablet    { text-align:left; };
     @include pc        { text-align:left; };
     @include line;
+    background-color:$basecolor;
     width:96%;
     margin:0 2%;
     padding:2em 0 0 0; 

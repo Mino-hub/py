@@ -4,7 +4,7 @@
  * */
 body {
   width: 100%;
-  background-color: #e1e1f5;
+  background-color: #ffffff;
   font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   float: left; }
   @media (max-width: 321px) {
@@ -235,6 +235,7 @@ body {
 header {
   border-bottom: 1px solid #a1a1b5;
   box-shadow: 0px 2px 0px #f1f1ff;
+  background-color: #e1e1f5;
   width: 96%;
   margin: 0 2%;
   padding: 2em 0 0 0;
