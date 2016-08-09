@@ -403,13 +403,15 @@ h1{
     line-height:$lineheight_m;
     float:left;
 }
-#article div,
 #article ol,
-#article ul,{
+#article ul{
     width:100%;
     color:$textcolor;
     font-size:$fontsize_m;
     line-height:$lineheight_m;
+    float:left;
+}
+#article div{
     float:left;
 }
 .fb-commnts{

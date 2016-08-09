@@ -470,13 +470,15 @@ h1 {
   line-height: 1.5em;
   float: left; }
 
-#article div,
 #article ol,
 #article ul {
   width: 100%;
   color: #152338;
   font-size: 1em;
   line-height: 1.5em;
+  float: left; }
+
+#article div {
   float: left; }
 
 .fb-commnts {
