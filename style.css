@@ -407,7 +407,7 @@ h1 {
   float: left; }
 
 #article h2 {
-  margin: 2em 0;
+  margin: 0 0 1em 0;
   font-size: 2em;
   line-height: 1em;
   padding-bottom: 0.5em;
@@ -419,7 +419,7 @@ h1 {
   float: left; }
 
 #article h3 {
-  margin: 1em 0;
+  margin: 0 0 1em 0;
   font-size: 1.4em;
   line-height: 0.7em;
   width: 100%;
@@ -427,7 +427,7 @@ h1 {
   float: left; }
 
 #article h4 {
-  margin: 1em 0;
+  margin: 0 0 1em 0;
   font-size: 1.3em;
   line-height: 0.65em;
   width: 100%;
@@ -435,7 +435,7 @@ h1 {
   float: left; }
 
 #article h5 {
-  margin: 1em 0;
+  margin: 0 0 1em 0;
   font-size: 1.2em;
   line-height: 0.6em;
   width: 100%;
@@ -443,7 +443,7 @@ h1 {
   float: left; }
 
 #article h6 {
-  margin: 1em 0;
+  margin: 0 0 1em 0;
   font-size: 1.1em;
   line-height: 0.55em;
   width: 100%;
