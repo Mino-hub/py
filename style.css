@@ -1,10 +1,7 @@
+@charset "UTF-8";
 /*
  * Theme Name:pyaka 
  * */
-
-
-
-@charset "UTF-8";
 body {
   width: 100%;
   background-color: #e1e1f5;
@@ -395,6 +392,7 @@ header img {
   float: left; }
 
 #article img {
+  margin: 1em 0;
   max-width: 100%;
   height: auto;
   float: left; }
@@ -449,7 +447,7 @@ h1 {
 
 #article p {
   width: 100%;
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
   color: #152338;
   font-size: 1em;
   line-height: 1.5em;

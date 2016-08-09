@@ -1,3 +1,7 @@
+/*
+ * Theme Name:pyaka 
+ * */
+
 //brackpoint
 $breakpoint_mobile:321px;
 $breakpoint_tablet:768px;
@@ -334,6 +338,7 @@ header img{
 
 
 #article img{
+    margin:1em 0;
     max-width:100%;
     height:auto;
     float:left;
@@ -375,7 +380,7 @@ h1{
 }
 #article p{
     width:100%;
-    margin-bottom:0.5em;
+    margin-bottom:2em;
     color:$textcolor;
     font-size:$fontsize_m;
     line-height:$lineheight_m;
