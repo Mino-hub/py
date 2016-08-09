@@ -525,6 +525,6 @@ h1 {
     width: 80px !important;
     margin: 0 7px 10px 0; } }
 .sns li span, .sns li iframe {
-  vertical-align: baseline; }
+  vertical-align: baseline !important; }
 
 /*# sourceMappingURL=style.css.map */
