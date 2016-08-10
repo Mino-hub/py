@@ -32,6 +32,7 @@ $breakpoint_pc:1366px;
 $basecolor:#e1e1f5;
 $hcolor:#051328;
 $textcolor:#152338;
+$textcolor2:#253348;
 $linecolor:#a1a1b5;
 $lineshadowcolor:#f1f1ff;
 $lineshadowcolor2:#ffffff;
@@ -470,5 +471,6 @@ h1{
     vertical-align:baseline !important;
 }
 blockquote{
+    color:$textcolor2;
     float:left;
 }
