@@ -386,13 +386,15 @@ header img {
       width: 30%; } }
 
 #article {
-  width: 100%;
+  width: 90%;
+  margin: 2em 5%;
   line-height: 1.5em;
   padding: 1em;
   float: left; }
 
 .meta {
-  width: 100%;
+  width: 90%;
+  margin: 2em 5%;
   line-height: 1.5em;
   padding: 1em;
   float: left; }

@@ -77,7 +77,8 @@ $lineheight_lx:$fontsize_lx * $lineheight_k;
 }
 //metainfo fix
 @mixin article_tag {
-    width:100%;
+    width:90%;
+    margin:2em 5%;
     line-height:$lineheight_m;
     padding:1em;
     float:left;
