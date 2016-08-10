@@ -471,6 +471,11 @@ h1{
     vertical-align:baseline !important;
 }
 blockquote{
+    font-size:0.9em;
+    color:$textcolor2;
+    float:left;
+}
+blockquote p{
     color:$textcolor2;
     float:left;
 }
