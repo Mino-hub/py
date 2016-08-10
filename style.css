@@ -529,4 +529,7 @@ h1 {
 .sns li span, .sns li iframe {
   vertical-align: baseline !important; }
 
+blockquote {
+  float: left; }
+
 /*# sourceMappingURL=style.css.map */
